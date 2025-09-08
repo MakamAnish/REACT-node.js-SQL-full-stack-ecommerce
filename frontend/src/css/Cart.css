@@ -1,0 +1,124 @@
+/* You can add css here for the cart page. This is completely optional */
+.cart-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f1f8e9; /* light green background */
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma;
+  }
+  
+  h1 {
+    color: #2e7d32;
+    text-align: center;
+  }
+  
+  .cart-message {
+    background-color: #d0f0c0;
+    border-left: 5px solid #2e7d32;
+    padding: 10px;
+    margin: 10px 0;
+    color: #2e7d32;
+    font-weight: 500;
+  }
+  
+  .cart-error {
+    background-color: #fdd;
+    color: #b00020;
+    padding: 12px;
+    border-left: 5px solid #b00020;
+    margin: 20px;
+  }
+  
+  .cart-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  }
+  
+  .cart-table th,
+  .cart-table td {
+    padding: 12px 16px;
+    text-align: center;
+  }
+  
+  .cart-table th {
+    background-color: #2e7d32;
+    color: white;
+  }
+  
+  .cart-table td button {
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    margin: 0 4px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .cart-table td button:hover {
+    background-color: #1b5e20;
+  }
+  
+  .cart-table td button:disabled {
+    background-color: #a5d6a7;
+    cursor: not-allowed;
+  }
+  
+  .cart-total {
+    margin-top: 30px;
+    text-align: right;
+  }
+  
+  .cart-total h3 {
+    font-size: 20px;
+    color: #2e7d32;
+  }
+  
+  .cart-total button {
+    background-color: #2e7d32;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cart-total button:hover {
+    background-color: #1b5e20;
+  }
+  
+  .empty-cart-message {
+    text-align: center;
+    font-size: 18px;
+    color: #666;
+    margin-top: 40px;
+  }
+  
+  input[type="radio"] {
+    margin-right: 8px;
+  }
+  
+  label {
+    display: block;
+    margin: 10px 0;
+    font-weight: 500;
+    color: #2e7d32;
+  }
+  
+  a {
+    color: #2e7d32;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  

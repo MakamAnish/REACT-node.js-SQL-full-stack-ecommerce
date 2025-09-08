@@ -1,0 +1,80 @@
+/* You can add css for pages in general here. Styling is optional*/
+.addresses-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+    font-family: 'Segoe UI', Tahoma;
+  }
+  
+  .addresses-container h2,
+  .addresses-container h3 {
+    color: #2e7d32;
+    margin-bottom: 20px;
+  }
+  
+  .address-box {
+    background-color: #ffffff;
+    padding: 16px;
+    border: 1px solid #c8e6c9;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .address-box input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 4px;
+    margin-bottom: 12px;
+    border: 1px solid #a5d6a7;
+    border-radius: 6px;
+    font-size: 15px;
+  }
+  
+  .address-box input[readonly] {
+    background-color: #f1f8e9;
+    color: #616161;
+  }
+  
+  .address-box button {
+    background-color: #2e7d32;
+    color: #fff;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .address-box button:hover {
+    background-color: #1b5e20;
+  }
+  
+  .new-address-form {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 2px dashed #81c784;
+    border-radius: 10px;
+    margin-top: 30px;
+  }
+  
+
+  .dashboard-container {
+    background: url('../components/dashboardpic.png');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    padding: 40px;
+    color: white;
+    font-size: 24px;
+  }
+  
+  body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
