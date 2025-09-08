@@ -1,4 +1,4 @@
-# E-Commerce Fullstack Project
+# React+Node.js Fullstack Project (E-commerce)
 
 This is a fullstack e-commerce application built with:
 
